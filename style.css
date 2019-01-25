@@ -1,0 +1,66 @@
+
+body{
+background-color: #602040;
+}
+
+.text{
+color: black;
+font-size: 13pt;
+margin-top: 80pt;
+margin-left: 100pt;
+position: absolute;
+}
+
+.name{
+margin-top: 35pt;
+margin-left: 40pt;
+position: absolute;
+font-size: 40pt;
+
+}
+
+.all{
+	margin-left: 30%;
+	margin-top: 10%;
+	font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
+    color: rgba(0,0,0,0.7);
+
+}
+
+.shape{
+	width: 700px;
+	height: 700px;
+	background-color:  white;
+	position: absolute;
+	z-index: -1;
+}
+
+.shape2{
+	width: 600px;
+	height: 600px;
+	background-color: #bc8fa6;
+	position: absolute;
+}
+.shape3{
+	width: 652px;
+	height: 652px;
+	background-color: #602040;
+	position: absolute;
+	z-index: -1;
+}
+
+.project{
+	margin-top: 30pt;
+	margin-left:-13pt;
+	margin-bottom: 5pt;
+	font-size: 20pt;
+	color: #391326;
+}
+
+.exercise{
+	margin-top: 10pt;
+	margin-left:-13pt;
+	margin-bottom: 2pt;
+	font-size: 20pt;
+	color: #391326;
+}
