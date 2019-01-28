@@ -9,6 +9,7 @@ font-size: 13pt;
 margin-top: 80pt;
 margin-left: 100pt;
 position: absolute;
+text-decoration: none;
 }
 
 .name{
@@ -63,4 +64,5 @@ font-size: 40pt;
 	margin-bottom: 2pt;
 	font-size: 20pt;
 	color: #391326;
+	text-decoration: none;
 }
