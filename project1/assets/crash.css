@@ -9,11 +9,11 @@ margin-left: 30%;
 
 
 .button{
-text-decoration: underline, none;
   position: fixed;
+  color: red;
+  text-decoration: none;
   margin-top: -760px;
   margin-left: 93%;
-  color: red;
   font-size: 40px;
   font-family: Arial, Sans-serif;
   
