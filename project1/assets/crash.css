@@ -1,0 +1,21 @@
+body{
+	background-color: black;
+}
+
+.card{
+margin-top: 10%;
+margin-left: 30%;
+}
+
+
+.button{
+text-decoration: underline, none;
+  position: fixed;
+  margin-top: -760px;
+  margin-left: 93%;
+  color: red;
+  font-size: 40px;
+  font-family: Arial, Sans-serif;
+  
+
+}
