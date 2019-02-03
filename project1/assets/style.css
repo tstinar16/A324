@@ -1,0 +1,105 @@
+body{
+  background-color: black;
+}
+
+.top {
+  left: 10%;
+  position: fixed;
+  width: 100%;
+  opacity: 1;
+  text-align: center;
+  font-family: 'helvetica';
+  font-size: 80px;
+  font-weight: 100;
+  color: #fff;
+    -webkit-animation: fadeinout 4s linear forwards;
+    animation: fadeinout 4s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.title {
+  position: absolute;
+  top: 10%;
+  left: 100px;
+}
+
+#wrapper{
+  height: 80vh;
+  width: 90vw; /* position of cards on page */
+  perspective: 1700;
+  perspective-origin: 50% 10%;
+  transform-style: preserve-3d;
+  transition: all 0.1s;
+}
+
+.card{
+  position: absolute;
+  width: 460px;
+  height: 250px;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  background-color: #000000;
+  margin: 10px;
+  transition: all 1s;
+  border:4px solid #black;
+}
+
+
+.card: {
+  left: 9px; /* postion of hover image size */
+  top:0;
+  width:300px;
+  height:300px;
+  background-size: cover; 
+  position: fixed;
+}
+
+
+img{
+  width: 100%;
+   display: block;
+ }
+
+&.active{
+  width:300px;
+  height:300px;
+  top: calc(50% - 160px);
+  left: calc(50% - 160px);
+}
+
+button{
+  position:fixed;
+  top:0;
+  height:100%;
+  width: 200px;
+  background: black;
+  border: none;
+  color:#cc0000;
+  font-size:3em;
+  outline: none;
+  cursor: pointer;
+&:hover{
+    background: rgba(255,255,255, 0.5);
+  }
+}
+
+.next{
+  right:0;
+  position: fixed;
+}
+.prev{
+  left:0;
+}
+
+
+
+
