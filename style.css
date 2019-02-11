@@ -23,7 +23,9 @@ font-size: 40pt;
 .all{
 	margin-left: 30%;
 	margin-top: 10%;
-	font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
+	font: 400 100px/1.2;
+	font-family: 'Merienda One', cursive;
+
     color: rgba(0,0,0,0.7);
 
 }
