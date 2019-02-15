@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Name Generator</title>
+
+	<a href="https://tstinar16.github.io/A324/" class="home"> Home</a>
+	
+	<!-- 
+	***** START CSS ***** 
+	-->
+	<style>
+
+		.home{
+		color: white;
+		text-decoration: none;
+		top: 92%;
+		left: 20%;
+		position: absolute;
+		font-size: 15pt;
+
+}
+
+		/* You can change the colors, font, and so on below */
+
+		body {
+			margin: 75px;
+			font-size: 25px;
+			text-transform: lowercase;
+			font-family: "Courier New", Courier, monospace;
+			background-color: #009999;
+			color:white;
+
+		}
+
+		.button-container {
+			position: fixed;
+			bottom: 75px;
+			left: 75px;
+		}
+
+		.list-one {
+
+		}
+
+		.list-two {
+			text-indent: 1em;
+		}
+
+		.list-three {
+			text-indent: 2em;
+		}
+
+		.list-four {
+			text-indent: 3em;
+		}
+
+	</style>
+	<!-- 
+	***** END CSS ***** 
+	-->
+
+
+	<!-- 
+	***** START JAVASCRIPT ***** 
+	-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			// list one: noun
+			var one = [
+				"a world of fire",
+				"a world of computers",
+				"a world of cups",
+				"a world of paper",
+				"a world of rules",
+				"a world of clocks",
+				"a world of people",
+				"a world of dogs",
+				"a world of mice",
+				"a world of music",		
+			];
+
+			// list two: verb
+			var two = [
+				"in other worlds",
+				"among other people",
+				"by the ocean",
+				"in the oven",
+				"on the phone",
+				"on the internet",
+				"in a net",
+				"amoung cars",
+				"in the light",
+				"in the water",
+				"on a ship",
+				
+			];
+
+			// list three
+			var three = [
+				"looking for peace",
+				"looking for quiet",
+				"looking for love",
+				"looking for revenge",
+				"looking to the sky",
+				"looking for a home",
+
+		
+			];
+
+			// list four content
+			var four = [
+				"with the sea",
+				"with the British",
+				"in the cold",
+				"in Africa",
+				"in England",
+				"in the mall",
+				"on the ranch",
+			];
+
+			// This is a very common randomizing function.
+			// It takes a list (array) and returns one at random.
+			function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			}
+
+			function generate(){
+
+				// Select a random item from each list
+				var selected_one = select_random(one);
+				var selected_two = select_random(two);
+				var selected_three = select_random(three);
+				var selected_four = select_random(four);
+
+				// Take the selected (random) item from list and make it visible
+				$('.list-one').html(selected_one);
+				$('.list-two').html(selected_two);
+				$('.list-three').html(selected_three);
+			    $('.list-four').html(selected_four);
+
+			}
+
+			$('button').click(function(){
+				generate();
+			});
+
+			generate();
+			
+		});
+
+	</script>
+	<!-- 
+	***** END JAVASCRIPT ***** 
+	-->
+
+</head>
+
+<body>
+
+	<!--
+	This is the button.
+	-->
+	<div class="button-container">
+		<button>more</button>
+	</div>
+
+	<!--
+	This is the visible portion.
+
+	If you want your words or phrases to go side-by-side, change...
+
+	<div></div>
+	to
+	<span></span>
+
+	in the code below.
+	-->
+	<div class="list-one"></div>
+	<div class="list-two"></div>
+	<div class="list-three"></div>
+	<div class="list-four"></div>
+
+</body>
+
+</html>
