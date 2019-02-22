@@ -1,0 +1,226 @@
+body {
+	background-image: url("./images/bg/bg5.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+#draggable { 
+	width: 100%; 
+	height: 150px; 
+	animation: float 6s ease-in-out infinite;
+	position: absolute;
+	top:400px;
+	left:500px;
+}
+
+
+
+
+#draggable2 { 
+	padding: 0.5em; 
+	animation: floatt 6s ease-in-out infinite;
+	position: absolute;
+	top:300px;
+	left:800px;
+}
+
+
+
+#draggable3 { 
+	width:50px;
+	padding: 0.5em; 
+	animation: float 5s ease-in-out infinite;
+	position: absolute;
+	top:500px;
+	left:330px;
+}
+
+
+#draggable4 { 
+	width:50px;
+	padding: 0.5em; 
+	animation: floatt 6s ease-in-out infinite;
+	position: absolute;
+	top:250px;
+	left:950px;
+}
+
+
+#draggable5 { 
+	width:50px;
+	padding: 0.5em; 
+	
+	animation: float 6s ease-in-out infinite;
+	position: absolute;
+	top:300px;
+	left:500px;
+}
+
+
+#draggable6 { 
+	width:50px;
+	padding: 0.5em; 
+	animation: floatt 6s ease-in-out infinite;
+	position: absolute;
+	top:400px;
+	left:600px;
+}
+
+
+#draggable7 { 
+	width:50px;
+	padding: 0.5em; 
+	animation: float 6s ease-in-out infinite;
+	position: absolute;
+	top:200px;
+	left:600px;
+}
+
+
+#draggable8 { 
+	width:50px;
+	padding: 0.5em; 
+	animation: floatt 6s ease-in-out infinite;
+	position: absolute;
+	top:200px;
+	left:1000px;
+}
+
+#draggable9 { 
+	width:50px;
+	padding: 0.5em; 
+	animation: float 6s ease-in-out infinite;
+	position: absolute;
+	top:60px;
+	left:600px;
+}
+
+
+#draggable10 { 
+	width:50px;
+	padding: 0.5em; 
+	animation: floatt 6s ease-in-out infinite;
+	position: absolute;
+	top:200px;
+	left:400px;
+}
+
+#draggable11 { 
+	width:50px;
+	padding: 0.5em; 
+	animation: float 6s ease-in-out infinite;
+	position: absolute;
+	top:650px;
+	left:450px;
+}
+
+#draggable12 { 
+	width:50px;
+	padding: 0.5em; 
+	animation: floatt 6s ease-in-out infinite;
+	position: absolute;
+	top:600px;
+	left:800px;
+}
+
+
+#draggable13 { 
+	width:50px;
+	padding: 0.5em; 
+	transform-origin: center bottom;
+	animation: float 6s ease-in-out infinite;
+	position: absolute;
+	top:300px;
+	left:1000px;
+}
+
+
+#draggable14 { 
+	width:50px;
+	padding: 0.5em; 
+	animation: floatt 6s ease-in-out infinite;
+	position: absolute;
+	top:400px;
+	left:200px;
+}
+
+
+#draggable15 { 
+	width:50px;
+	padding: 0.5em; 
+	animation: float 6s ease-in-out infinite;
+	position: absolute;
+	top:400px;
+	left:700px;
+}
+
+
+#draggable16 { 
+	width:50px;
+	padding: 0.5em; 
+	animation: floatt 6s ease-in-out infinite;
+	position: absolute;
+	top:500px;
+	left:1000px;
+}
+
+
+#draggable17 { 
+	width:50px;
+	padding: 0.5em; 
+	animation: float 6s ease-in-out infinite;
+	position: absolute;
+	top:300px;
+	left:300px;
+}
+
+
+
+
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+
+
+@keyframes floatt {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	30% {
+		
+		transform: translatey(-15px);
+	}
+
+	30% {
+		
+		transform: translatey(-20px);
+	}
+
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+
+
+
+
+
+.fresh {
+	position: absolute;
+	width: 100px;
+}
