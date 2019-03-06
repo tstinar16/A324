@@ -1,0 +1,15 @@
+.text{
+	text-decoration: none;
+	margin-left: 15%;
+	font-family: Verdana,Geneva,sans-serif; 
+	font-size: 14pt;
+	color: white;
+}
+
+html {
+  background: url(3.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+

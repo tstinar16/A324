@@ -1,0 +1,14 @@
+.text{
+	text-decoration: none;
+	margin-left: 15%;
+	font-family: Verdana,Geneva,sans-serif; 
+	font-size: 14pt;
+	color: white;
+}
+
+html {
+  background: url(6.jpg) no-repeat center center fixed;
+  background-color: #2298b6;
+  
+}
+
